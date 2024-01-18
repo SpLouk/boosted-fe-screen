@@ -56,7 +56,5 @@ describe("MusicPlayer", () => {
       await new Promise((resolve) => setTimeout(resolve, 1000));
     });
     expect(scrubber.value).toBe("1");
-
-    // Add assertions here to check if the scrub position has increased
   });
 });
